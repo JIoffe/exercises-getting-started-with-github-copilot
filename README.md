@@ -12,5 +12,20 @@ Remember, it's self-paced so feel free to take a break! ☕️
 
 ---
 
+## Running Tests
+
+To install dependencies and run the backend tests:
+
+```bash
+pip install -r requirements.txt
+pytest -q tests/test_app.py
+```
+
+If you want to run all tests in the repository, use:
+
+```bash
+pytest
+```
+
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
