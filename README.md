@@ -14,10 +14,10 @@ Remember, it's self-paced so feel free to take a break! ☕️
 
 ## Running Tests
 
-To install development dependencies and run the backend tests:
+To install dependencies and run the backend tests:
 
 ```bash
-pip install -r requirements-dev.txt
+pip install -r requirements.txt
 pytest -q tests/test_app.py
 ```
 
